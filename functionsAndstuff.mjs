@@ -7,6 +7,16 @@
     Create a function that given an array of integers returns the largers number in the array.
     Do not use any built in functionality, use only basic js.
 */
+let myNumbers = [2, 6, 7, 8];
+let max = myNumbers[0];
+
+function highestNumber(myNumbers) {
+    for (let i = 0; i < myNumbers.length; i++)
+        if (myNumbers[i] > max)
+            max = myNumbers[i];
+    return max;
+};
+console.log(highestNumber(myNumbers));
 
 
 
@@ -40,6 +50,15 @@
 /*  Task 4
     Create a function that reads an indetermind number of integers from the console and returns the sum of the numbers.
 */
+let randomNumbers = [1, 4, 6, 7, 8];
+
+function sum(randomNumbers) {
+    let sum = 0;
+    for (let i = 0; i < randomNumbers.length; i++)
+        sum += randomNumbers[i];
+    return sum;
+};
+console.log(sum(randomNumbers));
 
 
 
@@ -47,6 +66,25 @@
     Create a function that given a string returns the number of words in the string.
     Do not use any built in functionality for splitting strings etc.
 */
+let stringToCount = [`Duck`, `You`, `You`, `Ducking`, `Duck`];
+
+
+   
+   console.log(countWords(stringToCount));
+
+    
+
+
+
+
+
+
+
+
+
+
+;
+
 
 
 

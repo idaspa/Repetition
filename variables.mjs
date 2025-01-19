@@ -28,10 +28,7 @@ console.log(area)
 */
 
 let firstString = [`if at first  you do not succeed, try, try again fall seven times stand up eight`];
-firstString.sort(``)
-let CorrectOrder = 
-
-
+firstString.sort(firstString)
     
 console.log(firstString)
 /*for (let i = 0; i < bothStrings.length; i++) {
@@ -72,7 +69,7 @@ if (numberToCompare < numberToCheck); {
     Create a new variable that is the union of words between the two strings.
 */
 
-let oneString = `Life is short. Smile while you still have teeth. ` + `The best therapy is a good laugh and great friends.`;
+let oneString = `Life is short. Smile while you still have teeth.` + `The best therapy is a good laugh and great friends.`;
 console.log(oneString);
 
 let stringNumberOne = `Life is short. Smile while you still have teeth.`;
