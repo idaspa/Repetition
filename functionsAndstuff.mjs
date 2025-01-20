@@ -1,12 +1,5 @@
-/* 
-    NB! There is absolutly no point to these tasks if you use AI or "google" to solve them.
-    The point is to learn and practice, not to get the perfect answer.
-*/
+// Task 1
 
-/*  Task 1
-    Create a function that given an array of integers returns the largers number in the array.
-    Do not use any built in functionality, use only basic js.
-*/
 let myNumbers = [2, 6, 7, 8];
 let max = myNumbers[0];
 
@@ -18,38 +11,14 @@ function highestNumber(myNumbers) {
 };
 console.log(highestNumber(myNumbers));
 
+// Task 2
 
 
-/*  Task 2
-    Create a function that returns an array of n posetive numbers (only integers), where n is given as a parameter.
-    The numbers should be unique but not consecutive.
-    Do not use any built in functionality for sorting, matching etc. (You may use Random and Math functions)
-*/
+// Task 3
 
 
+// Task 4
 
-/*  Task 3
-    Create a function that given a string and a pattern returns true if the pattern matches the string.
-    Do not use any built in functionality for matching (no regex)etc.
-
-    A pattern is defined as a series of *,n,s and -.
-    * matches anything except an empty string.
-    n matches any number.
-    s matches any string.
-    - matches a single space.
-
-    Example:
-    pattern: sssss-nnn-*****
-    string: "Hello 123 World"
-
-*/
-
-
-
-
-/*  Task 4
-    Create a function that reads an indetermind number of integers from the console and returns the sum of the numbers.
-*/
 let randomNumbers = [1, 4, 6, 7, 8];
 
 function sum(randomNumbers) {
@@ -62,17 +31,16 @@ console.log(sum(randomNumbers));
 
 
 
-/*  Task 5
-    Create a function that given a string returns the number of words in the string.
-    Do not use any built in functionality for splitting strings etc.
-*/
+//Task 5.
+
+
 let stringToCount = [`Duck`, `You`, `You`, `Ducking`, `Duck`];
 
 
-   
-   console.log(countWords(stringToCount));
 
-    
+console.log(countWords(stringToCount));
+
+
 
 
 

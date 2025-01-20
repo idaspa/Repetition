@@ -1,19 +1,14 @@
 
 /* Task 1
-    Declare two variables, set the value of the first variable to 1 and the value of the second to 2.
-    Now swap so the first variable gets the value of the second and vice versa.
 */
-
 let firstNumber = 1;
 let secondNumber = 2;
 
 console.log(firstNumber, secondNumber);
 console.log(firstNumber + 1, secondNumber - 1);
-//console.log(secondNumber,firstNumber);
+console.log(secondNumber,firstNumber);
 
 /* Task 2
-    Without using built-in Math functionality or constants in JavaScript.
-    Calculate the area of a circle with the radius 6.
 */
 
 let circleRadius = 6;
@@ -40,9 +35,7 @@ console.log(firstString)
 
 
 
-/* Task 4
-    Declare three variables. The first two should have the values 6 and 2.
-    Make it so that the third variable is 10.
+/* Task 4 
 */
 
 let theFirstNumber = 6;
@@ -50,8 +43,6 @@ let theSecondNumber = 2;
 let theThirdNumber = 10;
 
 /* Task 5
-    Given a variable set to a random floating point value (you pick the value).
-    Instantiate a second variable that is true if the first variable is greater than 22.34.
 */
 
 let numberToCompare = 22.34;
